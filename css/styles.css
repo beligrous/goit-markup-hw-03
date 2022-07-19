@@ -23,12 +23,25 @@ p {
   margin: 0;
 }
 
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 .link {
   text-decoration: none;
 }
 
 .list {
   list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
 }
 
 /* Хедер */
