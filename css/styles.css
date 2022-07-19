@@ -42,6 +42,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
+  outline: solid red;
 }
 
 /* Хедер */
@@ -87,20 +88,27 @@ ul {
   color: var(--activ-text-color);
 }
 
+.head {
+  border: 1px solid #ececec;
+  padding: 24px 0;
+}
+
 /* Герой */
 
 .hero {
   background: #2f303a;
+  padding-top: 200px;
+  text-align: center;
 }
 
 .hero-title {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 900;
-  text-align: center;
   font-size: 44px;
   line-height: calc(60 / 44);
   letter-spacing: 0.06em;
+  margin-bottom: 30px;
 }
 
 /* Кнопки */
@@ -115,6 +123,11 @@ ul {
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   cursor: pointer;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  margin: 0 auto 200px;
+  min-width: 200px;
 }
 
 .portfolio-button {
@@ -154,11 +167,16 @@ ul {
   margin: -1px;
 }
 
+.values {
+  padding-top: 94px;
+}
+
 .values-title {
   font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
   color: var(--title-color);
+  margin-bottom: 10px;
 }
 
 .values-text {
@@ -169,17 +187,23 @@ ul {
 
 /* Чем мы занимаемся */
 
+.doing {
+  padding: 94px 0;
+}
+
 .doing-title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   color: var(--title-color);
+  margin-bottom: 50px;
 }
 
 /*Наша команда */
 
 .team {
   background-color: #f5f4fa;
+  padding: 94px 0;
 }
 
 .team-title {
@@ -187,6 +211,7 @@ ul {
   line-height: calc(42 / 36);
   text-align: center;
   color: var(--title-color);
+  margin-bottom: 50px;
 }
 
 .team-member-title {
@@ -195,6 +220,8 @@ ul {
   line-height: calc(19 / 16);
   text-align: center;
   color: var(--title-color);
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .team-member-text {
@@ -202,6 +229,7 @@ ul {
   line-height: calc(19 / 16);
   text-align: center;
   color: var(--main-text-color);
+  margin-bottom: 30px;
 }
 
 /* Образцы работ портфолио */
@@ -223,10 +251,15 @@ ul {
 
 .foot {
   background-color: #2f303a;
+  padding: 60px 0;
 }
 
-.foot > .logo {
+.foot .link {
   color: #ffffff;
+}
+
+.foot .logo {
+  margin-bottom: 20px;
 }
 
 .foot-address {
@@ -241,4 +274,5 @@ ul {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
 }
