@@ -124,6 +124,7 @@ ul {
   letter-spacing: 0.06em;
   cursor: pointer;
   display: inline-block;
+  border-color: transparent;
   padding: 10px 32px;
   border-radius: 4px;
   margin: 0 auto 200px;
@@ -139,6 +140,11 @@ ul {
   color: #212121;
   background-color: #f5f4fa;
   cursor: pointer;
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
+  min-width: 73px;
+  border-color: transparent;
 }
 
 .hero-button:hover,
@@ -234,17 +240,39 @@ ul {
 
 /* Образцы работ портфолио */
 
+.work {
+  padding: 146px 0 42px;
+}
+
+.work-filter {
+  margin-bottom: 34px;
+}
+
 .work-title {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--title-color);
+  margin-bottom: 4px;
 }
 
 .work-text {
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--main-text-color);
+}
+
+.work-list .link {
+  display: inline-block;
+}
+
+.work-card {
+  max-width: 370px;
+  border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  padding: 20px 24px;
+  margin-bottom: 30px;
 }
 
 /* Футер */
@@ -259,6 +287,7 @@ ul {
 }
 
 .foot .logo {
+  display: inline-block;
   margin-bottom: 20px;
 }
 
@@ -274,5 +303,6 @@ ul {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
   margin-top: 9px;
 }
