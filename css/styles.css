@@ -2,6 +2,8 @@
 /* Цвет текста заголовков #212121 */
 /* Цвет текста адреса (почта и тел) rgba(255, 255, 255, 0.6) */
 /* Цвет текста при активности #2196F3 */
+
+/* Reset */
 :root {
   --title-color: #212121;
   --main-text-color: #757575;
@@ -32,8 +34,20 @@ ul {
   text-decoration: none;
 }
 
+.logo.link {
+  padding: 24px 0;
+}
+
+.head-list .link {
+  padding: 32px 0;
+}
+
 .list {
   list-style: none;
+}
+
+.head .list:not(:last-child) {
+  margin-right: 50px;
 }
 
 .container {
@@ -42,7 +56,6 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
-  outline: solid red;
 }
 
 /* Хедер */
@@ -53,6 +66,25 @@ ul {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  display: block;
+}
+
+.head-list {
+  display: flex;
+}
+
+.menu {
+  margin-left: 93px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -73,6 +105,7 @@ ul {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  display: block;
 }
 
 .head-title:hover,
@@ -158,6 +191,10 @@ ul {
   background-color: var(--activ-text-color);
 }
 
+.section {
+  padding: 94px 0;
+}
+
 /* Ценности  */
 
 .visually-hidden {
@@ -173,8 +210,12 @@ ul {
   margin: -1px;
 }
 
-.values {
-  padding-top: 94px;
+.values-list {
+  display: flex;
+}
+
+.values-list .list:not(:last-child) {
+  margin-right: 30px;
 }
 
 .values-title {
@@ -193,8 +234,9 @@ ul {
 
 /* Чем мы занимаемся */
 
-.doing {
-  padding: 94px 0;
+.doing-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .doing-title {
@@ -209,7 +251,11 @@ ul {
 
 .team {
   background-color: #f5f4fa;
-  padding: 94px 0;
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
 }
 
 .team-title {
@@ -227,7 +273,6 @@ ul {
   text-align: center;
   color: var(--title-color);
   margin-bottom: 10px;
-  margin-top: 30px;
 }
 
 .team-member-text {
@@ -235,7 +280,15 @@ ul {
   line-height: calc(19 / 16);
   text-align: center;
   color: var(--main-text-color);
-  margin-bottom: 30px;
+}
+
+.member-description {
+  background-color: #ffffff;
+  padding: 30px 0;
+}
+
+.image {
+  display: block;
 }
 
 /* Образцы работ портфолио */

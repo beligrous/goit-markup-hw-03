@@ -23,12 +23,12 @@
   <body>
     <!-- Шапка -->
     <header class="head">
-      <div class="container">
-        <nav>
+      <div class="container line">
+        <nav class="navigation">
           <a class="logo link" href="./index.html" lang="en"
             ><span class="logo-color logo">Web</span>Studio</a
           >
-          <ul class="head-list">
+          <ul class="head-list menu">
             <li class="list">
               <a class="head-title link current" href="./index.html">Студия</a>
             </li>
@@ -66,13 +66,13 @@
         </div>
       </section>
       <!-- Секция без заголовка -->
-      <section class="values">
+      <section class="values section">
         <div class="container">
           <h2 class="visually-hidden">Ценности нашей компании</h2>
           <ul class="values-list">
             <li class="list">
               <h3 class="values-title">Внимание к деталям</h3>
-              <p>
+              <p class="values-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
@@ -102,10 +102,10 @@
         </div>
       </section>
       <!-- Чем занимаемся -->
-      <section class="doing">
+      <section class="doing section">
         <div class="container">
           <h2 class="doing-title">Чем мы занимаемся</h2>
-          <ul>
+          <ul class="doing-list">
             <li class="list">
               <img
                 width="370"
@@ -131,45 +131,57 @@
         </div>
       </section>
       <!-- Наша команда -->
-      <section class="team">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
-          <ul>
+          <ul class="team-list">
             <li class="list">
               <img
+                class="image"
                 width="270"
                 src="./images/img-product-designer.jpg"
                 alt="Фото Игорь Демьяненко"
               />
-              <h3 class="team-member-title">Игорь Демьяненко</h3>
-              <p class="team-member-text" lang="en">Product Designer</p>
+              <div class="member-description">
+                <h3 class="team-member-title">Игорь Демьяненко</h3>
+                <p class="team-member-text" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="list">
               <img
+                class="image"
                 width="270"
                 src="./images/img-frontend-developer.jpg"
                 alt="Фото Ольга Репина"
               />
-              <h3 class="team-member-title">Ольга Репина</h3>
-              <p class="team-member-text" lang="en">Frontend Developer</p>
+              <div class="member-description">
+                <h3 class="team-member-title">Ольга Репина</h3>
+                <p class="team-member-text" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="list">
               <img
+                class="image"
                 width="270"
                 src="./images/img-marketing.jpg"
                 alt="Фото Николай Тарасов"
               />
-              <h3 class="team-member-title">Николай Тарасов</h3>
-              <p class="team-member-text" lang="en">Marketing</p>
+              <div class="member-description">
+                <h3 class="team-member-title">Николай Тарасов</h3>
+                <p class="team-member-text" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="list">
               <img
+                class="image"
                 width="270"
                 src="./images/img-ui-designer.jpg"
                 alt="Фото Михаил Ермаков"
               />
-              <h3 class="team-member-title">Михаил Ермаков</h3>
-              <p class="team-member-text" lang="en">UI Designer</p>
+              <div class="member-description">
+                <h3 class="team-member-title">Михаил Ермаков</h3>
+                <p class="team-member-text" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
