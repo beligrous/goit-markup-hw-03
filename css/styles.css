@@ -34,14 +34,6 @@ ul {
   text-decoration: none;
 }
 
-.logo.link {
-  padding: 24px 0;
-}
-
-.head-list .link {
-  padding: 32px 0;
-}
-
 .list {
   list-style: none;
 }
@@ -71,6 +63,7 @@ ul {
 
 .head-list {
   display: flex;
+  align-items: center;
 }
 
 .menu {
@@ -79,6 +72,7 @@ ul {
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .line {
@@ -339,9 +333,8 @@ ul {
   color: #ffffff;
 }
 
-.foot .logo {
+.foot.logo {
   display: inline-block;
-  margin-bottom: 20px;
 }
 
 .foot-address {
@@ -350,6 +343,7 @@ ul {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: #ffffff;
+  margin-top: 20px;
 }
 .foot-tel-mail {
   text-decoration: none;
