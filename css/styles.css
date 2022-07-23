@@ -38,13 +38,8 @@ ul {
   list-style: none;
 }
 
-.head .list:not(:last-child) {
-  margin-right: 50px;
-}
-
 .container {
-  width: 100%;
-  max-width: 1200px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -59,11 +54,16 @@ ul {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   display: block;
+  padding: 32px 0;
 }
 
 .head-list {
   display: flex;
   align-items: center;
+}
+
+.head .list:not(:last-child) {
+  margin-right: 50px;
 }
 
 .menu {
@@ -116,15 +116,14 @@ ul {
 }
 
 .head {
-  border: 1px solid #ececec;
-  padding: 24px 0;
+  border-bottom: 1px solid #ececec;
 }
 
 /* Герой */
 
 .hero {
   background: #2f303a;
-  padding-top: 200px;
+  padding: 200px 0;
   text-align: center;
 }
 
@@ -154,7 +153,6 @@ ul {
   border-color: transparent;
   padding: 10px 32px;
   border-radius: 4px;
-  margin: 0 auto 200px;
   min-width: 200px;
 }
 
@@ -206,6 +204,14 @@ ul {
 
 .values-list {
   display: flex;
+}
+
+.values {
+  padding-bottom: 0;
+}
+
+.values-list .list {
+  width: 270px;
 }
 
 .values-list .list:not(:last-child) {
@@ -287,12 +293,8 @@ ul {
 
 /* Образцы работ портфолио */
 
-.work {
-  padding: 146px 0 42px;
-}
-
 .work-filter {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -307,7 +309,7 @@ ul {
 }
 
 .work-list .list {
-  max-width: 370px;
+  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -365,6 +367,7 @@ ul {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: #ffffff;
+  width: 231px;
   margin-top: 20px;
 }
 .foot-tel-mail {
